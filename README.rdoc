@@ -1,0 +1,16 @@
+= INSTAL
+
+ gem install tsparser
+
+
+= Description
+
+ MPEG2-TS parser
+
+
+= Sample Usage
+
+ require 'tsparser'
+ 
+ epg = TSparser.parse_epg('./test.ts')
+ p epg

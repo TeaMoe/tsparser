@@ -40,15 +40,15 @@ module TSparser
     ]
 
   MAIN_FILES.each do |path|
-    require LIBRARY_ROOT_PATH + '/lib' + path
+    require LIBRARY_ROOT_PATH + path
   end
 
   DEFINITION_DESCRIPTOR_FILES.each do |path|
-    require LIBRARY_ROOT_PATH + '/lib/definition/descriptor' + path
+    require LIBRARY_ROOT_PATH + '/definition/descriptor' + path
   end
 
   DEFINITION_FILES.each do |path|
-    require LIBRARY_ROOT_PATH + '/lib/definition' + path
+    require LIBRARY_ROOT_PATH + '/definition' + path
   end
 
   def parse_epg(input)
