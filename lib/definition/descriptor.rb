@@ -8,7 +8,7 @@ module TSparser
       0x4E => TSparser::ExtendedEventDescriptor,
       0x50 => TSparser::ComponentDescriptor,
       0x54 => TSparser::ContentDescriptor,
-      0xC1 => TSparser::DegitalCopyControlDescriptor,
+      0xC1 => TSparser::DigitalCopyControlDescriptor,
       0xC4 => TSparser::AudioComponentDescriptor,
       0xC7 => TSparser::DataContentDescriptor,
       0xCB => TSparser::CAContractInformationDescriptor, # Defined in ARIB STD-B25
