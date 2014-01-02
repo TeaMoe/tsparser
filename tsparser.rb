@@ -19,7 +19,7 @@ module TSparser
      '/extended_event_descriptor.rb',
      '/component_descriptor.rb',
      '/content_descriptor.rb',
-     '/degital_copy_control_descriptor.rb',
+     '/digital_copy_control_descriptor.rb',
      '/audio_component_descriptor.rb',
      '/data_content_descriptor.rb',
      '/ca_contract_information_descriptor.rb',

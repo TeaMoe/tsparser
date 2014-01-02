@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 module TSparser
-  class DegitalCopyControlDescriptor
+  class DigitalCopyControlDescriptor
     include Parsing
 
     def_parsing do
