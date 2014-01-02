@@ -27,7 +27,7 @@ ARIB規格のデジタル放送データを扱うことを主目的とする。
 ### 使用例  ###
     require 'tsparser'
 
-    epg = TSparser.parse_epg('./test_nhk.ts')
+    epg = TSparser.parse_epg('./test.ts')
 
     epg.each do |attr_hash|
       p attr_hash
