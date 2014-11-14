@@ -25,11 +25,12 @@ ARIB規格のデジタル放送データを扱うことを主目的とする。
 
 
 ### 使用例  ###
-    require 'tsparser'
+```ruby
+require 'tsparser'
 
-    epg = TSparser.parse_epg('./test.ts')
+epg = TSparser.parse_epg('./test.ts')
 
-    epg.each do |attr_hash|
-      p attr_hash
-    end
-
+epg.each do |attr_hash|
+  p attr_hash
+end
+```
