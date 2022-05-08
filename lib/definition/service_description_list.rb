@@ -1,13 +1,10 @@
-# -*- coding: utf-8 -*-
 module TSparser
-  class EITEventList
+  class ServiceDescriptionList
     include Enumerable
-    
+
     def initialize(binary)
       @events = []
-      while binary.readable?
-        @events << EITEvent.new(binary)
-      end
+      @events << ServiceDescription.new(binary) while binary.readable?
     end
 
     def each(&block)
